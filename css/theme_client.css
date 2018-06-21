@@ -1,0 +1,155 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    -webkit-text-size-adjust: 100%; 
+}
+
+.layerImage {
+    width: 100%;
+    height: 100%;
+
+    background-image: url(../img/bg_main.jpg);
+    background-size: cover;
+    -moz-background-size: cover;
+
+}
+
+.layerTransparent {
+    width: 100%;
+    height: 100%;
+
+    background-size: cover;
+    background-color: rgba(255,255,255,0.5);
+}
+
+canvas {
+    top: 20px;
+    left: 10px;
+    border: 5px solid #ccc;
+    background-color: #FFFFFF;
+}
+#button {
+    position: relative;
+    margin-left: 30px;
+    float: left;
+}
+#save {
+    font-size: 120%;
+    width: 80px;
+    height: 50px;
+}
+#clear {
+    font-size: 120%;
+    width: 80px;
+    height: 30px;
+}
+#eraser {
+    background-image: url(../img/eraser.png);
+    background-size: cover;
+    -moz-background-size: cover;
+}
+#reset {
+    background-image: url(../img/reset.png);
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
+#weight-l {
+    background-image: url(../img/weight-l.png);
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
+#weight-m {
+    background-image: url(../img/weight-m.png);
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
+#weight-s {
+    background-image: url(../img/weight-s.png);
+    background-size: cover;
+    -moz-background-size: cover;
+
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    /*list-style: none;*/
+}
+span.colors {
+    cursor:pointer;
+    cursor:hand;
+    /*display:inline-block;*/
+    border: 1px solid #EEEEEE;
+/*    width: 30px;*/
+    height: 30px;
+    float: left;
+    margin-top: 10px;
+}
+
+span.colors-none {
+    border: 0px solid #000;
+    width: 30px;
+/*    height: 30px;*/
+    float: left;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+span.weights {
+    cursor:pointer;
+    cursor:hand;
+    border: 1px solid #EEEEEE;
+    height: 30px;
+    float: left;
+    overflow: visible;
+    /*margin-top: 10px;*/
+}
+
+span.weights-none {
+    border: 0px solid #000;
+    width: 30px;
+    float: left;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.header {
+/*    float: left;*/
+/*    margin-bottom: 10px;*/
+    text-align: left;
+}
+
+.footer {
+/*    float: left;*/
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+span#title{
+    float: left;
+    font-size: 25px;
+    margin-right: 50px;
+}
+.clear {
+    clear:both;　/*floatの解除、ここがポイント*/
+}
+
+div#wrapper {  
+    width: 100%; 
+    margin: 0 auto;  
+    text-align: center;
+}  
